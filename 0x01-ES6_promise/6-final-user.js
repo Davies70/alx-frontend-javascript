@@ -15,6 +15,6 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
           array.push({ status: result.status, value: `Error: ${result.reason.message}` });
         }
       });
-      console.log(array);
+      return array;
     });
 }
