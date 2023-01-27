@@ -1,0 +1,2 @@
+const arr = ['bode', 'coder'];
+console.log(Array.isArray(arr));
