@@ -1,6 +1,6 @@
 export default function clearSet(set, startString) {
   const stringLength = startString.length;
-  if (stringLength === 0) return '';
+  if (stringLength === 0 || set.length === 0) return '';
   let newArray = [];
   set.forEach((string) => {
     if (Array.isArray(string)) {
