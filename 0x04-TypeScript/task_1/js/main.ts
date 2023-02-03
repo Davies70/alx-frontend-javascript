@@ -48,7 +48,7 @@ interface Student {
 interface StudentConstructor {
     new (firstName: string, lastName: string): Student;
   }
-  
+
 class StudentClass implements Student {
     firstName : string;
     lastName : string;
@@ -63,3 +63,5 @@ class StudentClass implements Student {
         return this.firstName;
     }
 }
+
+

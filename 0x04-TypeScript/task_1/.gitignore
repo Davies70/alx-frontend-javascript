@@ -1,6 +1,2 @@
-package.json
-tsconfig.json
-webpack.config.js
-.eslintrc.js
 node_modules
 package-lock.json
